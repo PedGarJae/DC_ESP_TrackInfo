@@ -1,0 +1,64 @@
+{
+  "id": "03c88b7c-a525-40c6-b7e9-7216887f2e9a",
+  "name": "DC_TrackInfoExtension",
+  "publisher": "DC_ESP",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "appId": "6da8dd2f-e698-461f-9147-8e404244dd85",
+      "name": "Continia Document Capture",
+      "version": "25.0.0.193193",
+      "publisher": "Continia Software"
+    },
+    {
+      "appId": "0745e76d-0b72-4641-87c2-ee45db5d2c32",
+      "name": "Continia Delivery Network",
+      "version": "25.0.0.189189",
+      "publisher": "Continia Software"
+    },
+    {
+      "appId": "4b915d7e-c02a-435f-85ab-649086c1e002",
+      "name": "Continia Core",
+      "version": "25.0.0.196196",
+      "publisher": "Continia Software"
+    },
+    {
+      "appId": "2b9992c2-5eaf-4cdc-b33b-592d917780d2",
+      "name": "Continia Connector App",
+      "version": "25.0.0.194194",
+      "publisher": "Continia Software"
+    },
+    {
+      "appId": "bbb72c8a-3abf-478f-9239-a34dbc252d07",
+      "name": "Continia Business Foundation",
+      "version": "25.0.0.194194",
+      "publisher": "Continia Software"
+    }
+
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "25.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 99999
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "14.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
