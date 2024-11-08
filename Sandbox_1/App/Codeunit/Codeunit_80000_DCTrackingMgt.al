@@ -29,6 +29,7 @@ codeunit 80000 DC_Tracking_Mgt
             If fRetreiveTrackValuesFromDoc(rlCDCDocument, PurchDocMatch."Document Line No.", vlLotNo, vlSerie, dlExpirationDate) then begin
                 If NOT fExistReservationEntry(ToPurchLine, rlReservationEntry) then begin
                     fCreateReservationEntry(ToPurchLine, vlLotNo, vlSerie, dlExpirationDate);
+                    IsHandled := true;
                 end;
             end;
         end;
